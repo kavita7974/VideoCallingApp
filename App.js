@@ -91,7 +91,7 @@ const HomeScreen = ({ navigation }) => {
                 },
             });
             agoraEngine.initialize({
-                appId: 'f3b9026ccc2047a4b33fded8beb2845d',
+                appId: '',
                 channelProfile: ChannelProfileType.ChannelProfileLiveBroadcasting,
             });
             agoraEngine.enableVideo();
